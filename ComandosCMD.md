@@ -87,6 +87,9 @@ Durante o atendimento, é essencial verificar **Processamento, Memória RAM, Red
 
 ## 🌐 Triagem Inicial de Conectividade
 
+A triagem de rede é o primeiro passo para identificar falhas de conectividade.  
+O fluxo ideal segue esta sequência:
+
 1. **Configurações básicas de rede:**  
    ```cmd
    ipconfig
@@ -118,6 +121,18 @@ Durante o atendimento, é essencial verificar **Processamento, Memória RAM, Red
 
 👉 **Fluxo recomendado:**  
 `ipconfig` → validar IP e gateway → `ping` no gateway → `ping` na internet → `tracert` para mapear falha.
+
+---
+
+## 🧩 Infográfico de Triagem de Conectividade
+
+`https://copilot.microsoft.com/th/id/BCO.9f7b3e2a-4c2b-4e9d-bb6d-2b7e3a8a5c9f.png`
+
+**Resumo visual:**
+- `[ipconfig]` → Configurações básicas de rede  
+- `[ipconfig /all]` → Detalhes da interface (DNS, MAC)  
+- `[ping]` → Teste de conectividade  
+- `[tracert]` → Rastreio da rota até o destino  
 
 ---
 
@@ -176,3 +191,6 @@ Durante o atendimento, é essencial verificar **Processamento, Memória RAM, Red
 👉 Documentar cada passo no ticket aumenta eficiência e reduz tempo de resolução em atendimentos futuros.
 
 ---
+
+Esse README agora está **completo, visual e técnico**, ideal para treinamento e documentação de suporte.  
+Quer que eu adicione uma **seção de boas práticas de evidência e registro de ticket** (como modelo de checklist para documentação de incidentes)? Isso deixaria o material ainda mais profissional.
