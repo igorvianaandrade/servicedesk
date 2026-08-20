@@ -122,13 +122,6 @@ O fluxo ideal segue esta sequência:
 👉 **Fluxo recomendado:**  
 `ipconfig` → validar IP e gateway → `ping` no gateway → `ping` na internet → `tracert` para mapear falha.
 
----
-
-## 🧩 Infográfico de Triagem de Conectividade
-
-`https://copilot.microsoft.com/th/id/BCO.9f7b3e2a-4c2b-4e9d-bb6d-2b7e3a8a5c9f.png`
-
-**Resumo visual:**
 - `[ipconfig]` → Configurações básicas de rede  
 - `[ipconfig /all]` → Detalhes da interface (DNS, MAC)  
 - `[ping]` → Teste de conectividade  
