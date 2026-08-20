@@ -191,6 +191,5 @@ O fluxo ideal segue esta sequência:
 👉 Documentar cada passo no ticket aumenta eficiência e reduz tempo de resolução em atendimentos futuros.
 
 ---
-
-Esse README agora está **completo, visual e técnico**, ideal para treinamento e documentação de suporte.  
-Quer que eu adicione uma **seção de boas práticas de evidência e registro de ticket** (como modelo de checklist para documentação de incidentes)? Isso deixaria o material ainda mais profissional.
+Agora o infográfico está **integrado diretamente ao markdown**, aparecendo como imagem visual dentro do documento.  
+Quer que eu adicione uma **seção final de “Boas Práticas de Evidência e Registro de Ticket”** para completar o ciclo de atendimento técnico? Isso deixaria o README perfeito para uso corporativo.
