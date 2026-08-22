@@ -53,10 +53,20 @@
 
 ## 📋 Inventário e Processos da Máquina
 
-Durante o atendimento, é essencial verificar **Processamento, Memória RAM, Rede e Disco**.  
+"Conhecer e perceber o seu ambiente é um fator importante!"
+(Inventário, processos que trabalha, tipo de máquina usada. 
+Saber modelo da máquina, modelo do processador, quantidade de Memoria RAM, 
+tipo/tamanho de Disco(tem espaço?...) 
+ 
+Durante o atendimento, é essencial verificar **Processamento, Memória RAM, Rede e Disco**.
 👉 Os maiores problemas costumam estar em **CPU e RAM**, pois impactam diretamente a performance do usuário.
 
 - **Informações completas do sistema (causa raiz do ticket):**  
+  ```cmd
+  hostname
+  ```
+  Identificar o nome de rede da máquina para inventário.
+  
   ```cmd
   systeminfo
   ```
@@ -65,6 +75,10 @@ Durante o atendimento, é essencial verificar **Processamento, Memória RAM, Red
   - Tempo de inicialização  
   - Patches aplicados  
 
+  **Dicas importantes:** Hoje em dia temos tipos de máquinas distintas dentro da empresa, devido ao avanço tecnológico ser rápido.
+  - Um software ou drive é imaginado a ser instalado na máquina "x" do mesmo modelo e fabricante, normalmente sendo o chipset do mesmo fabricante mas dentro da máquina pode existir um componente, dentro daquela placa mãe, diferente não pelo modelo da máquina e sim pela disponibilidade do que tinha no momento para uso (Exemplo: placa de USB diferente de uma máquina do mesmo modelo, então são drives diferentes).
+  - Verificar no systeminfo para entender melhor a tecnologia e poder fazer um atendimento mais eficiente. Montar uma imagem melhor. Instalar o Windows com mais assertividade para o usuário, evitando devolução de tickets de atendimento. 
+  
   **Boa prática:** guardar essas evidências no ticket para futuras resoluções mais rápidas.
 
 - **Listar processos ativos:**  
@@ -94,25 +108,27 @@ O fluxo ideal segue esta sequência:
    ```cmd
    ipconfig
    ```
-   - Endereço IP  
-   - Máscara de sub-rede  
-   - Gateway padrão  
+   - Endereço IP(Endereço local. Importante também saber o endereço de origem do pacote em problemas de conexão com servidor, por exemplo.)  
+   - Máscara de sub-rede. (Saber se a rede esta conectável com outra rede)
+   - Gateway padrão. (Saber qual a saída para conectar e para ter as rotas ou para que chegue ao roteador e ele rotei para o local certo.)  
 
 2. **Relatório completo da interface:**  
    ```cmd
    ipconfig /all
    ```
-   - DNS configurado  
-   - Endereço físico (MAC)  
+   - Todas as interfaces de rede conectadas
+   - DNS configurado (primario, secundário..) 
+   - Endereço físico (MAC) da placa de rede (O que determina ter alguma regra de firewall, tipo esse macadress tem esse tipo de navegação, ex: apenas o endereço mac do adm. de redes pode acessar os servidores em caso de segurança.)
 
-3. **Testar conectividade (gateway/local/internet):**  
+4. **Testar conectividade (gateway/local/internet):**  
    ```cmd
    ping 8.8.8.8
    ping google.com
    ```
-   - Verifica se há resposta do gateway ou da internet.  
+   - Protocolo ICMP(TCP: confirma chegada do pacote | UDP: sem confirmação de chegada do pacote)
+   - Verifica se há resposta do gateway ou da internet.
 
-4. **Rastrear caminho até destino:**  
+5. **Rastrear caminho até destino:**  
    ```cmd
    tracert google.com
    ```
