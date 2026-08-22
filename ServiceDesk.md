@@ -111,6 +111,12 @@ Monitorar indicadores é essencial para avaliar desempenho e melhorar continuame
 
 👉 **Boa prática:** revisar KPIs mensalmente e discutir melhorias com a equipe.
 
+## Fonte de Pesquisa
+
+Service Desk do Suporte Reativo ao Atendimento Estratégico
+https://youtu.be/n_-G-UFmxtQ?si=ph9vVCihUPqg1i2E
+
+
 ---
 
 ## 💡 Cultura de Atendimento
