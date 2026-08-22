@@ -111,12 +111,6 @@ Monitorar indicadores é essencial para avaliar desempenho e melhorar continuame
 
 👉 **Boa prática:** revisar KPIs mensalmente e discutir melhorias com a equipe.
 
-## Fonte de Pesquisa
-
-Service Desk do Suporte Reativo ao Atendimento Estratégico
-https://youtu.be/n_-G-UFmxtQ?si=ph9vVCihUPqg1i2E
-
-
 ---
 
 ## 💡 Cultura de Atendimento
@@ -126,5 +120,10 @@ https://youtu.be/n_-G-UFmxtQ?si=ph9vVCihUPqg1i2E
 - Trate o usuário como parceiro, não como problema.  
 - Documente tudo — o histórico é ouro para futuras análises.  
 - Busque sempre transformar incidentes em melhorias de processo.
+
+## Fonte de Pesquisa
+
+Service Desk do Suporte Reativo ao Atendimento Estratégico
+https://youtu.be/n_-G-UFmxtQ?si=ph9vVCihUPqg1i2E
 
 ---
