@@ -176,6 +176,7 @@ O fluxo ideal segue esta sequência:
 ---
 
 ## 📌 Guia Rápido de Comandos
+<img width="1305" height="639" alt="image" src="https://github.com/user-attachments/assets/398963d3-1e65-453d-9421-32d8125aea1e" />
 
 | Comando | Função |
 |---------|--------|
