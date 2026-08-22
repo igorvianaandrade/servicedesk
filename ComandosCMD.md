@@ -213,5 +213,10 @@ O fluxo ideal segue esta sequência:
   
   Dica 01: Usar apenas softwares homologados.
   Dica 02: Printar tela e mandar informações como evidências.
+
+## Fontes de Pesquisa
+
+Comandos Essenciais de CMD na Prática
+https://www.youtube.com/live/XaRzI4bJe2k?si=1mD3Qlwg95fjtN9T
   
 ---  
