@@ -126,13 +126,15 @@ O fluxo ideal segue esta sequência:
    ping google.com
    ```
    - Protocolo ICMP(TCP: confirma chegada do pacote | UDP: sem confirmação de chegada do pacote)
-   - Verifica se há resposta do gateway ou da internet.
-
+   - Ping no hostname(problema de DNS antes de chegar na rede)
+   - Verifica se há resposta do gateway ou da internet. caso não obtenha as respostas necessárias usar o comando tracert.
+  
 5. **Rastrear caminho até destino:**  
    ```cmd
    tracert google.com
    ```
-   - Mostra cada salto (roteador) até o destino.  
+   - Caminho feito da origem até o destino.
+   - Mostra cada salto (roteador) até o destino. (Ex: roteador 01 -> roteador2 || chega no roteador 3? | estou na rota do roteador 4?)
    - Útil para identificar onde a conexão falha.  
 
 👉 **Fluxo recomendado:**  
@@ -141,7 +143,9 @@ O fluxo ideal segue esta sequência:
 - `[ipconfig]` → Configurações básicas de rede  
 - `[ipconfig /all]` → Detalhes da interface (DNS, MAC)  
 - `[ping]` → Teste de conectividade  
-- `[tracert]` → Rastreio da rota até o destino  
+- `[tracert]` → Rastreio da rota até o destino
+  
+**Boa prática:** guardar essas evidências no ticket para passar ao nivel certo de especialista nas resoluções.
 
 ---
 
@@ -199,4 +203,14 @@ O fluxo ideal segue esta sequência:
 
 👉 Documentar cada passo no ticket aumenta eficiência e reduz tempo de resolução em atendimentos futuros.
 
----
+## Dicas úteis
+
+# SOFTWARE
+- SoftPerfect Network Scanner: Ping para toda a rede obtendo quais dispositivos que estão respondendo. Tem algumas portas abertas? Quais os Macaderesses.
+- WinMTR(tracert)
+- Notepad ++(Ver/Escrever/Editar arquivos)
+  
+  Dica 01: Usar apenas softwares homologados.
+  Dica 02: Printar tela e mandar informações como evidências.
+  
+---  
