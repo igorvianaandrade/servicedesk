@@ -63,6 +63,9 @@ Exemplo:
 - **Protocolos:** Regras de comunicação (TCP → confiável, UDP → rápido, HTTP → web, SMTP → e-mail).
 
 ---
+## 📊 Fluxograma da Jornada do Pacote
+
+![Fluxograma Jornada do Pacote](https://copilot.microsoft.com/th/id/BCO.b1e56265-d51e-434c-9905-a43326e9a46f.png)
 
 ## 📦 Jornada do Pacote de Dados
 
