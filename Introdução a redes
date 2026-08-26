@@ -1,0 +1,43 @@
+# 🌐 Conceitos Fundamentais de Redes de Computadores
+
+Este repositório reúne os principais conceitos sobre redes de computadores, com foco no **modelo OSI**, **endereçamento IP**, **DNS**, **protocolos**, e na **jornada do pacote de dados**.  
+Ideal para estudantes, profissionais de TI e entusiastas que desejam compreender como ocorre a comunicação entre dispositivos em uma rede.
+
+---
+
+## 📘 Conteúdo
+
+- Introdução a Redes  
+- Modelo OSI  
+- Modelo Cliente-Servidor  
+- Endereçamento IP, Máscara e Gateway  
+- DNS, Portas e Protocolos  
+- Jornada do Pacote de Dados  
+- Ferramentas e Exercícios Práticos  
+
+Para o conteúdo completo e detalhado, acesse:  
+👉 [`docs/redes.md`](docs/redes.md)
+
+---
+
+## 📊 Fluxograma da Jornada do Pacote
+
+![Fluxograma Jornada do Pacote](https://copilot.microsoft.com/th/id/BCO.b1e56265-d51e-434c-9905-a43326e9a46f.png)
+
+---
+
+## 🧠 Objetivo
+
+Este projeto tem como objetivo:
+- Facilitar o entendimento dos conceitos de rede.
+- Servir como guia de estudo e referência para troubleshooting.
+- Demonstrar a aplicação prática dos comandos e ferramentas de diagnóstico.
+
+---
+
+## 🛠️ Ferramentas Recomendadas
+
+- `ping`, `tracert`, `ipconfig`, `ifconfig`
+- **Wireshark** – análise de pacotes  
+- **Nmap** – varredura de portas  
+- **nslookup / dig** – teste de DNS  
