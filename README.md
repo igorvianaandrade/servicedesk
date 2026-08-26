@@ -9,3 +9,6 @@ https://www.youtube.com/live/XaRzI4bJe2k?si=Txgb1gO1z4l18avG
 
 Introdução a Redes
 https://www.youtube.com/live/vlmf5-bYaOQ?si=OhdzCFn7NVncGNz_
+
+Certificado
+https://www.dio.me/certificate/9QRKAHW9/share
