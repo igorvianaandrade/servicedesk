@@ -1,4 +1,4 @@
-# 🌐 Redes de Computadores – Conteúdo Detalhado
+# 🌐 Redes de Computadores
 
 Este documento reúne os conceitos fundamentais de redes de computadores, com foco no **modelo OSI**, **endereçamento IP**, **DNS**, **protocolos**, e na **jornada do pacote de dados**. Inclui também exercícios práticos para fixação.
 
